@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Final App
 //
-//  Created by rvcstudent3 on 5/8/21.
+//  Created by La'Keshia Wingo on 5/8/21.
 //
 
 import UIKit
@@ -17,7 +17,5 @@ class ViewController: UIViewController {
     @IBAction func btnListen(_ sender: UIButton) {
         UIApplication.shared.openURL(URL(string:"https://www.gitaradio.com")!)
     }
-    
-    @IBOutlet weak var Image: UIImageView!
-}
+// add gita blue globe image below here
 

@@ -27,6 +27,4 @@ class Page2ViewController: UIViewController {
     */
     @IBAction func btnSchedule(_ sender: UIButton) {UIApplication.shared.openURL(URL(string:"Https://forms.gle/bVeXgJxCKyxQs89v7")!)
     }
-    
-    @IBOutlet weak var ImageSpotlight: UIImageView!
-}
+// add spotlight app photo here
