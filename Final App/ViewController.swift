@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnListen(_ sender: UIButton) {
+        UIApplication.share.openURL(URL9string:"https://www.gitaradio.com")!)
+    }
+    
 }
 

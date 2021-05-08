@@ -13,6 +13,8 @@
 		50BC55532646D05F0013E53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BC55512646D05F0013E53C /* Main.storyboard */; };
 		50BC55552646D05F0013E53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BC55542646D05F0013E53C /* Assets.xcassets */; };
 		50BC55582646D05F0013E53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BC55562646D05F0013E53C /* LaunchScreen.storyboard */; };
+		50BC55612646D2120013E53C /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC55602646D2120013E53C /* Page2ViewController.swift */; };
+		50BC55662646D61C0013E53C /* GITA Blue Globe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 50BC55652646D61C0013E53C /* GITA Blue Globe.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		50BC55542646D05F0013E53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50BC55572646D05F0013E53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50BC55592646D05F0013E53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BC55602646D2120013E53C /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		50BC55652646D61C0013E53C /* GITA Blue Globe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GITA Blue Globe.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		50BC554A2646D05F0013E53C /* Final App */ = {
 			isa = PBXGroup;
 			children = (
+				50BC55632646D57D0013E53C /* Photos */,
 				50BC554B2646D05F0013E53C /* AppDelegate.swift */,
 				50BC554D2646D05F0013E53C /* SceneDelegate.swift */,
 				50BC554F2646D05F0013E53C /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				50BC55542646D05F0013E53C /* Assets.xcassets */,
 				50BC55562646D05F0013E53C /* LaunchScreen.storyboard */,
 				50BC55592646D05F0013E53C /* Info.plist */,
+				50BC55602646D2120013E53C /* Page2ViewController.swift */,
 			);
 			path = "Final App";
+			sourceTree = "<group>";
+		};
+		50BC55632646D57D0013E53C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				50BC55652646D61C0013E53C /* GITA Blue Globe.jpeg */,
+			);
+			path = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			files = (
 				50BC55582646D05F0013E53C /* LaunchScreen.storyboard in Resources */,
 				50BC55552646D05F0013E53C /* Assets.xcassets in Resources */,
+				50BC55662646D61C0013E53C /* GITA Blue Globe.jpeg in Resources */,
 				50BC55532646D05F0013E53C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				50BC55502646D05F0013E53C /* ViewController.swift in Sources */,
 				50BC554C2646D05F0013E53C /* AppDelegate.swift in Sources */,
+				50BC55612646D2120013E53C /* Page2ViewController.swift in Sources */,
 				50BC554E2646D05F0013E53C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
