@@ -40,7 +40,7 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" link="YES"/>
                                 </accessibility>
-                                <string key="text">Gospel in the Air Radio Ministry is a 501-C3 24/7 streaming station that plays music from the early 60's to what's current. We include Gospel Music from a variety of genres including, but not limited to Rap,  Praise &amp;  Worship, Contemporary, Country, and Quartet. Gospel in the Air streams 24/7 from www.gitaradio.com.  For more information contact James Rainey, jrainey@gitaradio.com  or 7122594482.  </string>
+                                <string key="text">Gospel in the Air Radio Ministry is a 501-C3, 24/7 streaming station that plays music from the early 60's to what's current. We include Gospel Music from a variety of genres including, but not limited to Rap,  Praise &amp;  Worship, Contemporary, Country, and Quartet. Gospel in the Air streams 24/7 from www.gitaradio.com.  For more information contact James Rainey, jrainey@gitaradio.com  or 7122594482.  </string>
                                 <color key="textColor" red="0.21568629149999999" green="0.1294117719" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -93,7 +93,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Home" id="mbR-oh-jqX"/>
                                         <barButtonItem key="rightBarButtonItem" title="Sponsor Page" id="Lg2-rw-1I4">
                                             <connections>
-                                                <segue destination="2r1-FB-x6S" kind="show" id="iEQ-dD-S85"/>
+                                                <segue destination="2r1-FB-x6S" kind="show" id="1Ek-AF-bYC"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
