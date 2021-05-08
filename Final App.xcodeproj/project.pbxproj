@@ -60,7 +60,7 @@
 		50BC554A2646D05F0013E53C /* Final App */ = {
 			isa = PBXGroup;
 			children = (
-				50BC55632646D57D0013E53C /* Photos */,
+				50BC55632646D57D0013E53C /* Images */,
 				50BC554B2646D05F0013E53C /* AppDelegate.swift */,
 				50BC554D2646D05F0013E53C /* SceneDelegate.swift */,
 				50BC554F2646D05F0013E53C /* ViewController.swift */,
@@ -73,12 +73,12 @@
 			path = "Final App";
 			sourceTree = "<group>";
 		};
-		50BC55632646D57D0013E53C /* Photos */ = {
+		50BC55632646D57D0013E53C /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				50BC55652646D61C0013E53C /* GITA Blue Globe.jpeg */,
 			);
-			path = Photos;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -18,5 +18,6 @@ class ViewController: UIViewController {
         UIApplication.share.openURL(URL9string:"https://www.gitaradio.com")!)
     }
     
+    @IBOutlet weak var Image: UIImageView!
 }
 

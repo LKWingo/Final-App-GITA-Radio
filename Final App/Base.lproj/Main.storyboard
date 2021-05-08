@@ -66,6 +66,9 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="pBp-h4-tDn"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="Image" destination="nGh-m1-z4I" id="B3D-z5-K7I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,16 +83,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMe-cE-3Ij">
-                                <rect key="frame" x="0.0" y="52" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="53" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Indie Artist Spotlight" id="iV6-vF-Ikb">
-                                        <barButtonItem key="leftBarButtonItem" title="Home" id="V3n-Xk-h1f">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="Frx-ea-Z67"/>
-                                            </connections>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Page 3" id="gtz-VT-uKS"/>
+                                    <navigationItem title="Indie Artist Spotlight" id="new-yO-45r">
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="mbR-oh-jqX"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Page 3" id="Lg2-rw-1I4"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -98,9 +97,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rur-jM-BVc">
-                                <rect key="frame" x="99" y="362" width="228" height="86"/>
+                                <rect key="frame" x="99" y="367" width="228" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Schedule an Interview"/>
+                                <connections>
+                                    <action selector="btnSchedule:" destination="e5l-f3-ue4" eventType="touchUpInside" id="7HE-WD-meW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Tg-AR-f32"/>
@@ -135,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h38-hN-Xfw" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="693" y="69"/>
+            <point key="canvasLocation" x="694" y="60"/>
         </scene>
     </scenes>
     <resources>
