@@ -30,11 +30,25 @@
                                 </items>
                             </navigationBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nGh-m1-z4I">
-                                <rect key="frame" x="68" y="253" width="296" height="212"/>
+                                <rect key="frame" x="20" y="140" width="382" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWD-pX-Usb">
+                                <rect key="frame" x="8" y="96" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RY-ox-LRY">
+                                <rect key="frame" x="95" y="96" width="248" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Listen Live">
+                                    <color key="titleColor" red="0.21568629149999999" green="0.1294117719" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnListen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpW-Ri-3Rv"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3O8-VF-TFb">
-                                <rect key="frame" x="95" y="523" width="248" height="263"/>
+                                <rect key="frame" x="20" y="398" width="374" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -46,20 +60,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </textView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWD-pX-Usb">
-                                <rect key="frame" x="8" y="96" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RY-ox-LRY">
-                                <rect key="frame" x="95" y="131" width="248" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Listen Live">
-                                    <color key="titleColor" red="0.21568629149999999" green="0.1294117719" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnListen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpW-Ri-3Rv"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -90,7 +90,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Indie Artist Spotlight" id="new-yO-45r">
-                                        <barButtonItem key="leftBarButtonItem" title="Home" id="mbR-oh-jqX"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="mbR-oh-jqX">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="dmL-Vs-VOz"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Sponsor Page" id="Lg2-rw-1I4">
                                             <connections>
                                                 <segue destination="2r1-FB-x6S" kind="show" id="1Ek-AF-bYC"/>
@@ -99,19 +103,15 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-HQ-8Bk">
-                                <rect key="frame" x="49" y="254" width="317" height="218"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0A-sF-cQK">
-                                <rect key="frame" x="46" y="143" width="310" height="30"/>
+                                <rect key="frame" x="46" y="114" width="310" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View Past Interviews">
                                     <color key="titleColor" red="0.21568629149999999" green="0.1294117719" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rur-jM-BVc">
-                                <rect key="frame" x="87" y="489" width="228" height="86"/>
+                                <rect key="frame" x="73" y="396" width="228" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Schedule an Interview">
                                     <color key="titleColor" red="0.21568629149999999" green="0.1294117719" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -120,6 +120,10 @@
                                     <action selector="btnSchedule:" destination="e5l-f3-ue4" eventType="touchUpInside" id="7HE-WD-meW"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-HQ-8Bk">
+                                <rect key="frame" x="19" y="152" width="336" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Tg-AR-f32"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -168,7 +172,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IY2-Eu-vaH"/>
+        <segue reference="WhF-Vk-udn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
