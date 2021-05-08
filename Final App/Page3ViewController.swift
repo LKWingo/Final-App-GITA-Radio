@@ -1,13 +1,13 @@
 //
-//  Page2ViewController.swift
+//  Page3ViewController.swift
 //  Final App
 //
-//  Created by La'Keshia Wingo on 5/8/21.
+//  Created by rvcstudent3 on 5/8/21.
 //
 
 import UIKit
 
-class Page2ViewController: UIViewController {
+class Page3ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,18 +25,5 @@ class Page2ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func btnSchedule(_ sender: UIButton) {UIApplication.shared.openURL(URL(string:"Https://forms.gle/bVeXgJxCKyxQs89v7")!)
-    }
-// add spotlight app photo here
-
-    @IBAction func btnInterview(_ sender: UIButton)
-    {UIApplication.shared.openURL(URL(string:"Https://docs.google.com/presentation/d/1jyLSHqGnocUJn7x6uB3rcrjiV5cVevorvHTMn2HGtGw/edit?usp=sharing")!)}
-
-
-
-
-
-
 
 }
-

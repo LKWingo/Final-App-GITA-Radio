@@ -17,5 +17,4 @@ class ViewController: UIViewController {
     @IBAction func btnListen(_ sender: UIButton) {
         UIApplication.shared.openURL(URL(string:"https://www.gitaradio.com")!)
     }
-// add gita blue globe image below here
-
+}
