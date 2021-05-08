@@ -25,7 +25,8 @@ class Page2ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func btnSchedule(_ sender: UIButton) {UIApplication.shared.openURL(URL(string:"https://forms.gle/bVeXgJxCKyxQs89v7")!)
+    @IBAction func btnSchedule(_ sender: UIButton) {UIApplication.shared.openURL(URL(string:"Https://forms.gle/bVeXgJxCKyxQs89v7")!)
     }
     
+    @IBOutlet weak var ImageSpotlight: UIImageView!
 }

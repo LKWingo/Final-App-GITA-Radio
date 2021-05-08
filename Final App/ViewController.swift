@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnListen(_ sender: UIButton) {
-        UIApplication.share.openURL(URL9string:"https://www.gitaradio.com")!)
+        UIApplication.share.openURL(URL9string:"https://www.gitaradio.com")!;)
     }
     
     @IBOutlet weak var Image: UIImageView!
